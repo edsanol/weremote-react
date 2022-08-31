@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://weremote.net/wp-content/uploads/2021/04/Logo-WR.svg" width="300" />
+</p>
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ejecución
+1. Clone este repositorio
+2. Ejecute el comando npm i en la terminal abierta en el directorio donde clono este repositorio
+3. Ejecute el comando npm start
+4. Se abrirá una ventana en el navegador en la dirección http://localhost:3000/
 
-## Available Scripts
+## Descripción
+**Frontend DEV Challenge.** Entrega de la prueba de admisión para desarrolladores en React.
 
-In the project directory, you can run:
+## Características
+1. Diseño basado en el diseño del Figma y la maquetación HTML, SASS y JavaScript
+2. Diseño responsive Mobile first
+3. Código autodescriptivo
+4. Funcionalidades sin librerías de terceros, JavaScript y JSX
+5. Implememtación del store con Redux para el control de los estados globales
+6. Desarrollo de Custom Hook para el formulario
 
-### `npm start`
+## Funcionalidades
+1. Header fijo transparente dentro del hero y toma color al hacer scroll
+2. Menú que abre y cierra
+3. Hero rotatorio, cambia su imagen de background cada 5 segundos de forma automatica y se detiene la animación cuando el hero ya no está visible en la pantalla
+4. FAQ de tipo accordion
+5. Caja de testimonios con slider
+6. Modal que abre y cierra al hacer click en los articulos gestionado con estados globales en Redux para el control de los modales y la información mostrada por los mismos
+7. Formulario de contacto con Custom hook
+8. Ligth mode y dark mode gestionado con estados globales en Redux
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Links
+1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test?node-id=0%3A1
+2. HTML, SASS y JavaScript: https://github.com/edsanol/frontend-dev-challenge

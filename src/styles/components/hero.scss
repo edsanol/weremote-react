@@ -1,0 +1,57 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+
+  &--img {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://res.cloudinary.com/dho6leigc/image/upload/v1661814793/photo_01_foytxb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+  }
+
+  &__text {
+    width: 245px;
+
+    &__title {
+      width: 100%;
+      margin-bottom: 30px;
+      line-height: 2.5rem;
+
+      & h1 {
+        font-size: $font-h1-size;
+        color: white;
+
+        & span {
+          color: $pink-color;
+        }
+      }
+    }
+
+    &__subtitle {
+      width: 100%;
+      margin-bottom: 10px;
+      line-height: 2rem;
+
+      & h2 {
+        font-size: $font-h2-size;
+        color: white;
+      }
+    }
+
+    &__paragraph {
+      width: 100%;
+      line-height: 1.5rem;
+
+      & p {
+        font-size: $font-p-size;
+        color: white;
+      }
+    }
+  }
+}
