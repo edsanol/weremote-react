@@ -31,5 +31,5 @@
 8. Ligth mode y dark mode gestionado con estados globales en Redux
 
 ## Links
-1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test?node-id=0%3A1
+1. Figma: https://www.figma.com/file/yoT3EkOjfgZJtpBUTH79Jt/Figma-Test
 2. HTML, SASS y JavaScript: https://github.com/edsanol/frontend-dev-challenge
